@@ -16,7 +16,7 @@ Across all specifications and sub-analyses, I find **no robust evidence of a sys
 - Baseline estimate: 0.513 (s.e. 0.593), not statistically significant. The 95% confidence interval runs from about -0.65 to +1.68, so the estimates are imprecise.
 - The only marginally significant estimate (0.970, s.e. 0.566, 10% level) appears when all three controls are included jointly. It does not appear when each control is added separately on the same restricted sample (N = 636).
 - The placebo test and the event study show no evidence of differential pre-trends.
-- Results are unchanged when crime is split by offense type (thefts, robberies, property damage) and when provinces are split by migrant population share (a descriptive comparison, not a formal interaction test).
+- The conclusion is unchanged when crime is split by offense type (thefts, robberies, property damage) and when provinces are split by migrant population share (a descriptive comparison, not a formal interaction test). The only exception is robberies, which show a marginally significant positive coefficient (10% level) in the baseline specification; it loses significance once the full set of controls is added.
 
 A null result at the province level does not rule out effects at a finer geographic scale. The thesis discusses this, along with the short post-treatment window, limits to statistical precision, and the fact that payments are an imperfect proxy for completed projects.
 
