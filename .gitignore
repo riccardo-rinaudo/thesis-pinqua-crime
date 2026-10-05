@@ -1,0 +1,6 @@
+   *.dta
+   *.csv
+   *.xlsx
+   *.log
+   Dataset/
+   Dataset_dta/
