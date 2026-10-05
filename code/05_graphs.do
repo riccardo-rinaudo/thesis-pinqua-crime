@@ -1,4 +1,4 @@
-*Grafici.do
+* 05_graphs.do
 *Qua generiamo i grafici descrittivi e di sintesi per la tesi
 clear all
 set more off
@@ -9,7 +9,7 @@ if "$root" == "" {
 }
 ssc install coefplot, replace
 
-** CARICAMENTO PANEL FINALE (già pronto da Regressioni.do) **
+** CARICAMENTO PANEL FINALE (già pronto da 02_regressions.do) **
 use "$clean/panel_regressioni.dta", clear
 xtset cod_prov anno
 
@@ -54,7 +54,7 @@ graph export "$clean/grafico_coefplot_controls.pdf", replace
 ** QUOTA PROGETTI PER MACROAREA (deduplicati, con codici armonizzati) **
 use "$clean/pinqua_territori.dta", clear
 
-* stessa armonizzazione codici usata in Pulizia_dataset.do
+* stessa armonizzazione codici usata in 01_cleaning_dataset.do
 replace cod_prov = "201" if cod_prov == "001"   // Torino
 replace cod_prov = "210" if cod_prov == "010"   // Genova
 replace cod_prov = "215" if cod_prov == "015"   // Milano
